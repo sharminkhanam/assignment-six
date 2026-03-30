@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "Perfect package for beginners to create simple resumes.",
+    "price": 9,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "Popular",
+    "features": ["10+ templates", "Basic ATS optimization", "PDF export"],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced tools for professional resume creation.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "best",
+    "tagType": "Best Seller",
+    "features": ["50+ templates", "Cover letter builder", "LinkedIn optimization"],
+    "icon": "🚀"
+  },
+  {
+    "id": 3,
+    "name": "Career Booster Pack",
+    "description": "All-in-one toolkit for job seekers.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "New",
+    "features": ["100+ templates", "Portfolio builder", "Interview tips"],
+    "icon": "💼"
+  },
+  {
+    "id": 4,
+    "name": "Student CV Pack",
+    "description": "Designed for students and fresh graduates.",
+    "price": 5,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "Popular",
+    "features": ["8+ templates", "Simple editor", "Download PDF"],
+    "icon": "🎓"
+  },
+  {
+    "id": 5,
+    "name": "Executive Resume Suite",
+    "description": "Premium resumes for senior professionals.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "best",
+    "tagType": "Best Seller",
+    "features": ["200+ templates", "Personal branding", "Priority support"],
+    "icon": "👔"
+  },
+  {
+    "id": 6,
+    "name": "Freelancer Profile Kit",
+    "description": "Create stunning freelance profiles easily.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "New",
+    "features": ["Portfolio templates", "Client pitch tips", "Profile optimization"],
+    "icon": "💻"
+  },
+  {
+    "id": 7,
+    "name": "Job Hunter Bundle",
+    "description": "Everything you need to land your dream job.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "Popular",
+    "features": ["Resume + cover letter", "Job tracking", "Email templates"],
+    "icon": "📊"
+  },
+  {
+    "id": 8,
+    "name": "Ultimate Career Pack",
+    "description": "Complete career growth solution.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "best",
+    "tagType": "Best Seller",
+    "features": ["All templates access", "Career coaching", "Mock interviews"],
+    "icon": "🔥"
+  }
+]
