@@ -1,6 +1,6 @@
 export default function Transform () {
     return (
-        <div className="container mx-auto p-20 bg-purple-700 ">
+        <div className="container mx-auto p-20 bg-purple-700">
             <div className=" text-center x  mt-4">
                 <div className="space-y-3">
                     <h1 className="text-white font-bold text-5xl">Ready to Transform Your Workflow?</h1>

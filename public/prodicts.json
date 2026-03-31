@@ -8,7 +8,7 @@
     "tag": "popular",
     "tagType": "Popular",
     "features": ["10+ templates", "Basic ATS optimization", "PDF export"],
-    "icon": "📄"
+    "icon": "/images/writing_2327400 1.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "tag": "best",
     "tagType": "Best Seller",
     "features": ["50+ templates", "Cover letter builder", "LinkedIn optimization"],
-    "icon": "🚀"
+    "icon":  "/images/design-tool.png"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "tag": "new",
     "tagType": "New",
     "features": ["100+ templates", "Portfolio builder", "Interview tips"],
-    "icon": "💼"
+    "icon": "/images/social-media.png"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "tag": "popular",
     "tagType": "Popular",
     "features": ["8+ templates", "Simple editor", "Download PDF"],
-    "icon": "🎓"
+    "icon": "/images/social-media.png"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "tag": "best",
     "tagType": "Best Seller",
     "features": ["200+ templates", "Personal branding", "Priority support"],
-    "icon": "👔"
+    "icon": "/images/operation.png"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "tag": "new",
     "tagType": "New",
     "features": ["Portfolio templates", "Client pitch tips", "Profile optimization"],
-    "icon": "💻"
+    "icon": "/images/portfolio.png"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "tag": "popular",
     "tagType": "Popular",
     "features": ["Resume + cover letter", "Job tracking", "Email templates"],
-    "icon": "📊"
+    "icon": "/images/design-tool.png"
   },
   {
     "id": 8,
@@ -85,6 +85,6 @@
     "tag": "best",
     "tagType": "Best Seller",
     "features": ["All templates access", "Career coaching", "Mock interviews"],
-    "icon": "🔥"
+    "icon": "/images/portfolio.png"
   }
 ]

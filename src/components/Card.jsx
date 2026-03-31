@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { toast } from "react-toastify";
+import { FaCheck } from "react-icons/fa6";
 
 
 
@@ -30,20 +31,25 @@ function Carts ({product, carts, setCarts}) {
                                
                         <div 
                                 key={product.id}
-                                className="">
+                                className="p-8 ">
                                     
                                     
-                                    <span className="flex items-center justify-between border w-18 h-18 rounded-full">
-                                        {product.icon}
+                                    <span className="flex items-center justify-between w-20 h-20 border  rounded-full">
+                                       <img src={product.icon} alt="icon"  className="mx-auto"/>
                                         </span>
-                                    <h2>{product.name}</h2>
-                                     <h2>{product.title}</h2>
-                                    <p>{product.description}</p>
-                                    <h3>{product.tag}</h3>
+                                        <div className="space-y-3 mt-4">
+                                             <h2 className="font-bold text-2xl">{product.name}</h2>
+                                    
+                                    <p className="font-semibold">{product.description}</p>
+                                    
+                                    <div>${product.price}</div>
+                                    <span className="flex gap-2"><h3> <FaCheck className="text-green-500 w-5 h-5 "/>{product.tag}</h3></span>
+                                    
                                     <h3>{product.tagType}</h3>
                                     <h3>{product.period}</h3>
                                     <h3>{product.features}</h3>
-                                    <div>${product.price}</div>
+                                        </div>
+                                   
                                 </div>
                                     <button onClick={handleBuy}>{isBuy? "Buy" : "Buy Now"}</button>         
                                 
