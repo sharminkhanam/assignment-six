@@ -34,6 +34,7 @@ console.log(active)
       <NavBar />
 
      <Banner />
+     <Stats></Stats>
      {/* name of each tab group should be unique */}
       <div className="tabs tabs-box justify-center bg-transparent">
         <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label="Products" 
@@ -48,7 +49,7 @@ console.log(active)
       </div>
      {active === "products" && <Products productPromise={productPromise} carts={carts} setCarts={setCarts}/>}
      { active === "cart" && <Cart carts={carts} setCarts={setCarts}/>}
-     <Stats></Stats>
+     
      <Steps></Steps>
       
      <Pricingsection />

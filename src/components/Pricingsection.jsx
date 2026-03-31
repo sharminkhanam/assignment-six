@@ -3,7 +3,7 @@ import { FaCheck } from "react-icons/fa6";
 
 export default function Pricingsection () {
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto p-18">
             <div className="text-center space-y-4">
                 <h2 className="font-bold text-5xl ">Simple, Transparent Pricing</h2>
                 <p>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
