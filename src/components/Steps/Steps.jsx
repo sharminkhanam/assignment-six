@@ -32,12 +32,8 @@ function Steps () {
     
   </div>
 </div>
-<div className="card bg-base-100 w-96 shadow-sm">
-  <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes" />
-  </figure>
+<div className="card bg-base-100 w-100 shadow-sm">
+  
   <div className="card-body">
     <h2 className="card-title text-3xl font-bold text-gray-700">Start Creating</h2>
     <p>Download and start using your premium <br/>tools immediately.</p>
