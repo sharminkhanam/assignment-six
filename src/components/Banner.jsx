@@ -1,12 +1,13 @@
 import { CiPlay1 } from "react-icons/ci";
 import { GiPlainCircle } from "react-icons/gi";
+import banner from "../assets/banner.png"
 
 function Banner () {
     return (
-      <div className="hero bg-base-200 container mx-auto p-16">
-  <div className="flex justify-between ">
+      <div className="hero container mx-auto ">
+  <div className="flex justify-between gap-8 p-20">
    
-    <div className="space-y-5 bg-base-200 ">
+    <div className="space-y-5  ">
       <div className="p-2 rounded-full bg-gray-200 w-76 text-center flex gap-2 items-center">
         <GiPlainCircle className="text-purple-400"/>
           <p className="font-semibold text-purple-400">New: AI-Powered Tools Available</p>
@@ -20,14 +21,19 @@ function Banner () {
 
       </p>
       <div className="flex gap-5">
-        <button className="btn btn-primary">Get Started</button>
-       <button className="btn "><CiPlay1 /> Watch Demo</button>
+         
+               <button  className="btn bg-gradient-to-r from-blue-500 to-purple-500 p-6 rounded-full text-white">Explore Products</button>
+        
+       
+       <button className="btn bg-gradient-to-r from-blue-500 to-purple-500 p-6 rounded-full bg-clip-text text-transparent border-fuchsia-400">
+        <CiPlay1 className="text-purple-700 w-6 h-6"/> Watch Demo</button>
       </div>
       
     </div>
      <img
-      src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-      className="max-w-sm rounded-lg shadow-2xl"
+      src={banner}
+      alt ="banner"
+      className="mx-auto items-end"
     />
   </div>
 </div>

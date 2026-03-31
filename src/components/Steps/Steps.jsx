@@ -1,45 +1,54 @@
+import user from "../../assets/user.png"
+import baje from "../../assets/baje.png"
+import rocket from "../../assets/rocket.png"
+
 function Steps () {
     return (
         <div className="container mx-auto p-20">
             <div >
-                <div className="mt-4 space-x-3">
-                    <div className="text-center">
-                         <h1>Get Started in 3 Steps</h1>
-                    <p>Start using premium digital tools in minutes, not hours.</p>
+                <div className="mt-4 ">
+                    <div className="text-center space-y-4">
+                         <h1 className="font-bold text-4xl ">Get Started in 3 Steps</h1>
+                    <p className="text-gray-500">Start using premium digital tools in minutes, not hours.</p>
                     </div>
-                    <div className="flex justify-between">
-                 <div className="card bg-base-100 w-96 shadow-sm">
-  <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes" />
-  </figure>
-  <div className="card-body">
-    <h2 className="card-title text-3xl font-bold text-gray-700">Create Account</h2>
-    <p>Sign up for free in seconds. No credit card <br/>required to get started.</p>
-   
-  </div>
-</div>
-<div className="card bg-base-100 w-96 shadow-sm">
-  <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes" />
-  </figure>
-  <div className="card-body">
-    <h2 className="card-title text-3xl font-bold text-gray-700">Choose Products</h2>
-    <p>Browse our catalog and select the toolsthat <br/>fit your needs.</p>
-    
-  </div>
-</div>
-<div className="card bg-base-100 w-100 shadow-sm">
-  
-  <div className="card-body">
-    <h2 className="card-title text-3xl font-bold text-gray-700">Start Creating</h2>
-    <p>Download and start using your premium <br/>tools immediately.</p>
-   
-  </div>
-</div>
+                  </div>
+                    <div className="flex justify-between mt-8">
+                        <div className="card bg-base-100 w-96 shadow-sm p-8">
+                      <figure>
+                        <img
+                          src={user}
+                          alt="user" className="bg-base-300 p-4 rounded-full"/>
+                      </figure>
+                      <div className="card-body">
+                        <h2 className="card-title text-3xl font-bold text-gray-700">Create Account</h2>
+                        <p>Sign up for free in seconds. No credit card <br/>required to get started.</p>
+                      
+                      </div>
+                    </div>
+                    <div className="card bg-base-100 w-96 shadow-sm p-8">
+                      <figure>
+                        <img
+                          src={baje}
+                          alt="baje" className="bg-base-300 p-4 rounded-full"/>
+                      </figure>
+                      <div className="card-body">
+                        <h2 className="card-title text-3xl font-bold text-gray-700">Choose Products</h2>
+                        <p>Browse our catalog and select the toolsthat fit your needs.</p>
+                        
+                      </div>
+                    </div>
+                    <div className="card bg-base-100 w-96 shadow-sm p-8">
+                       <figure>
+                        <img
+                          src={rocket}
+                          alt="rocket" className="bg-base-300 p-4 rounded-full "/>
+                      </figure>
+                      <div className="card-body">
+                        <h2 className="card-title text-3xl font-bold text-gray-700">Start Creating</h2>
+                        <p>Download and start using your premium <br/>tools immediately.</p>
+                      
+                      </div>
+                    </div>
                     </div>
                     
                  
@@ -48,7 +57,7 @@ function Steps () {
              
             </div>
             
-        </div>
+       
     )
 }
 
