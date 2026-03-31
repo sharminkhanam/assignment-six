@@ -1,6 +1,6 @@
 function Stats (){
     return (
-        <div className=" bg-blue-700 py-6 flex text-center text-white">
+        <div className=" container mx-auto bg-blue-700 py-6 flex text-center text-white">
   <div className="stat">
     
     <div className="stat-value ">50K+</div>
