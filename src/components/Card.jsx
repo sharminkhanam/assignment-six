@@ -3,19 +3,12 @@ import { toast } from "react-toastify";
 import { FaCheck } from "react-icons/fa6";
 
 
-
- 
- 
- 
-
-
-
 function Carts ({product, carts, setCarts}) {
     const [isBuy , setIsBuy] = useState(false);
     const handleBuy = () => {
         setIsBuy(true)
 
-        const isFound = carts.find( item => item.id === product).id;
+        const isFound = carts.find( item => item.id === product.id);
         if(isFound){
             toast.error("item already in cart")
             return ;
@@ -42,21 +35,30 @@ function Carts ({product, carts, setCarts}) {
                                     
                                     <p className="font-semibold">{product.description}</p>
                                     
-                                    <div>${product.price}</div>
-                                    <span className="flex gap-2"><h3> <FaCheck className="text-green-500 w-5 h-5 "/>{product.tag}</h3></span>
+                                      <div>${product.price}</div>
+                                   <h3 className="flex gap-2 items-center"> 
+                                    <FaCheck className="text-green-500 w-5 h-5 "/>{product.tag}</h3>
                                     
-                                    <h3>{product.tagType}</h3>
-                                    <h3>{product.period}</h3>
-                                    <h3>{product.features}</h3>
+                                    <h3 className="flex gap-2 items-center">
+                                        <FaCheck className="text-green-500 w-5 h-5 "/>{product.tagType}</h3>
+                                    <h3 className="flex gap-2 items-center">
+                                        <FaCheck className="text-green-500 w-5 h-5 "/>{product.period}</h3>
+                                    <h3 className="flex gap-2 items-center">
+                                        <FaCheck className="text-green-500 w-5 h-5 "/>{product.features}</h3>
                                         </div>
-                                   
+                                    
+                                    </div>
+                                    <button onClick={handleBuy} className="btn bg-gradient-to-r from-blue-500 to-purple-500  btn-block text-white p-5 
+                                    rounded-full mb-4
+                                    text-xl text-center font-bold">
+                                        {isBuy? "Buy" : "Buy Now"}</button>  
                                 </div>
-                                    <button onClick={handleBuy}>{isBuy? "Buy" : "Buy Now"}</button>         
+                                          
                                 
                                 
 
                     </div>
-        </div>
+        
     )
 }
 

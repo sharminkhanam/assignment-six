@@ -34,7 +34,7 @@ console.log(active)
       <NavBar />
 
      <Banner />
-     <Stats></Stats>
+    <Stats></Stats>
      {/* name of each tab group should be unique */}
       <div className="tabs tabs-box justify-center bg-transparent mt-20">
         <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label="Products" 
@@ -53,6 +53,7 @@ console.log(active)
      <Steps></Steps>
       
      <Pricingsection />
+      
      <Transform />
      <Footer></Footer>
     </>

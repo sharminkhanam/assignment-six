@@ -1,5 +1,5 @@
 import { toast } from "react-toastify"
-
+import { RiDeleteBin6Line } from "react-icons/ri";
 export default function Cart ({carts, setCarts}){
     const totalPrice = carts.reduce((sum , item)=> sum + item.price, 0)
     console.log(carts)
@@ -22,16 +22,17 @@ export default function Cart ({carts, setCarts}){
                 {
                 carts.map((item) => <div key={item.id}>
                     <div>
-                        {item.icon}
+                        <span className="flex gap-2">
+                         <img src={item.icon} alt="icon"  className="mx-auto"/>
+                         {item.name}
+                        </span>
                     </div>
-                    <div>
-                        {item.title}
-                    </div>
+                    
                     <div className="flex gap-2">
                          <div>
                         {item.price}
                     </div>
-                    <button onClick = {()=>handleDelete(item)} className="btn ">x</button>
+                    <button onClick = {()=>handleDelete(item)} className="btn "><RiDeleteBin6Line /></button>
                     </div>
                    
                 </div>)
