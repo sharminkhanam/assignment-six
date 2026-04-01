@@ -37,11 +37,12 @@ console.log(active)
     <Stats></Stats>
      {/* name of each tab group should be unique */}
       <div className="tabs tabs-box justify-center bg-transparent mt-20">
-        <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label="Products" 
+        <input type="radio" name="my_tabs_1" className="tab rounded-full w-40 " aria-label="Products" 
          onClick={() => setActive("Products")}
         defaultChecked  />
+
         <input type="radio" name="my_tabs_1" 
-        className="tab rounded-full w-40" 
+        className="tab rounded-full w-40 " 
         aria-label={`carts (${carts.length}) `}
         onClick={() => setActive("cart")}
         />

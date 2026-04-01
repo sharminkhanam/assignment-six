@@ -13,24 +13,29 @@ export default function Cart ({carts, setCarts}){
         toast.success('item deleted')
     }
     return (
-        <div>
-            <h1>cart</h1>
+        <div className="p-10 container mx-auto">
+            <h1 className="font-bold text-3xl "> Your cart</h1>
             {
                 carts.length === 0 ? <p>Carts is empty</p> :
                 <>
-                 <div className="flex ">
+                 <div className="space-y-4">
                 {
-                carts.map((item) => <div key={item.id}>
-                    <div>
-                        <span className="flex gap-2">
-                         <img src={item.icon} alt="icon"  className="mx-auto"/>
+                carts.map((item) => <div className="flex justify-between items-center rounded-lg border" key={item.id}>
+                    <div className="p-4">
+                        <span className="flex gap-2  ">
+                         <img src={item.icon} alt="icon"  className="mx-auto object-contain"/>
                          {item.name}
                         </span>
+                        <p className="text-semibold text-xl ml-10">${item.price}</p>
+                         
+                    </div>
+                    <div>
+                        
                     </div>
                     
                     <div className="flex gap-2">
                          <div>
-                        {item.price}
+                        
                     </div>
                     <button onClick = {()=>handleDelete(item)} className="btn "><RiDeleteBin6Line /></button>
                     </div>
