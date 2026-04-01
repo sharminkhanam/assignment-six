@@ -37,19 +37,39 @@ console.log(active)
     <Stats></Stats>
      {/* name of each tab group should be unique */}
       <div className="tabs tabs-box justify-center bg-transparent mt-20">
-        <input type="radio" name="my_tabs_1" className="tab rounded-full w-40 " aria-label="Products" 
-         onClick={() => setActive("Products")}
-        defaultChecked  />
+          <input type="radio" 
+          name="my_tabs_1" 
+          className="tab rounded-full w-40 text-xl font-bold text-black
+            checked:bg-gradient-to-r 
+            checked: from-blue-500 
+            checked: to-purple-500
+            checked:text-white" 
+          aria-label="Products" 
+          onClick={() => setActive("Products")}
+          defaultChecked  />
 
-        <input type="radio" name="my_tabs_1" 
-        className="tab rounded-full w-40 " 
-        aria-label={`carts (${carts.length}) `}
-        onClick={() => setActive("cart")}
-        />
+          <input type="radio" 
+          name="my_tabs_1" 
+          className="tab rounded-full w-40 text-xl font-bold text-black   
+           checked:bg-gradient-to-r 
+           checked: from-blue-500 
+           checked: to-purple-500
+            checked:text-white" 
+          aria-label={`carts (${carts.length}) `}
+          onClick={() => setActive("cart")}
+          />
        
       </div>
-     {active === "products" && <Products productPromise={productPromise} carts={carts} setCarts={setCarts}/>}
-     { active === "cart" && <Cart carts={carts} setCarts={setCarts}/>}
+     {active === "products" && 
+     <Products 
+     productPromise={productPromise} 
+     carts={carts} 
+     setCarts={setCarts}/>}
+
+     { active === "cart" && 
+     <Cart 
+     carts={carts} 
+     setCarts={setCarts}/>}
      
      <Steps></Steps>
       
