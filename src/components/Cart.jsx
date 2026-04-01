@@ -47,7 +47,7 @@ export default function Cart ({carts, setCarts}){
                 <div className="text-xl font-bold">Total:</div>
                 <div className="text-xl font-bold">{totalPrice}</div>
             </div>
-            <button onClick={handlePayment} className="btn w-full rounded-3xl text-white bg-red-600 mt-4">
+            <button onClick={handlePayment} className="btn w-full rounded-3xl text-white bg-blue-600 mt-4">
                 Procued to checkout</button></>
             }
            

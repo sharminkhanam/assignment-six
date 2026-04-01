@@ -19,7 +19,7 @@ function Carts ({product, carts, setCarts}) {
     }
     return (
         <div>
-            <div className="shadow-lg border rounded-lg">
+            <div className="shadow-lg border rounded-md">
                             
                                
                         <div 
@@ -38,7 +38,7 @@ function Carts ({product, carts, setCarts}) {
                                              <h2 className="font-bold text-2xl">{product.name}</h2>
                                     <p className="font-semibold">{product.description}</p>
                                     
-                                      <div>${product.price}/{product.period}</div>
+                                      <div className="font-bold text-2xl">${product.price}/{product.period}</div>
                                     <h3 className="flex gap-2 items-center">
                                         <FaCheck className="text-green-500 w-5 h-5 "/>{product.features}</h3>
                                          <h3 className="flex gap-2 items-center">

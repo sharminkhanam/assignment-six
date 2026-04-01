@@ -7,7 +7,8 @@ export default function Footer () {
     return (
         <div className="container mx-auto">
               <footer className="footer sm:footer-horizontal bg-blue-950  p-10 text-white">
-                <div>
+                
+                   <div >
                   <h1 className="text-3xl font-bold text-white">DigiTools</h1>
                   <p>
                 Premium digital tools for creators, <br />professionals, 
@@ -57,6 +58,8 @@ export default function Footer () {
                 </div>
                 
               </nav>
+              
+               
             
             </footer>
             <footer className="bg-blue-950 text-gray-500">

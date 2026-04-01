@@ -4,19 +4,19 @@ import rocket from "../../assets/rocket.png"
 
 function Steps () {
     return (
-        <div className="container mx-auto bg-base-200 p-20 mt-8">
+        <div className="container mx-auto bg-base-200 px-4 py-16 mt-8">
             <div >
                 <div className="">
                     <div className="text-center space-y-4">
-                         <h1 className="font-bold text-5xl ">Get Started in 3 Steps</h1>
+                         <h1 className="font-bold lg:text-5xl sm:text-4xl text-3xl">Get Started in 3 Steps</h1>
                     <p className="text-gray-500">Start using premium digital tools in minutes, not hours.</p>
                     
                     </div>
                   </div>
-                    <div className="flex justify-between mt-8">
-                        <div className="card bg-base-100 w-96 shadow-sm p-8">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-between mt-8">
+                        <div className="card bg-base-100 w-full max-w-sm mx-auto shadow-md p-6 relative">
                           
-                            <span className="step bg-gradient-to-r from-blue-500 to-purple-500  w-8 h-8  rounded-full text-center text-white ml-70">01</span>
+                            <span className=" absolute top-4 right-4 step bg-gradient-to-r from-blue-500 to-purple-500  w-8 h-8  rounded-full text-center text-white ">01</span>
                          
                       <figure>
                         <img
@@ -30,8 +30,8 @@ function Steps () {
                       
                       </div>
                     </div>
-                    <div className="card bg-base-100 w-96 shadow-sm p-8">
-                      <span className="step bg-gradient-to-r from-blue-500 to-purple-500  w-8 h-8  rounded-full text-center text-white ml-70">02</span>
+                    <div className="card bg-base-100 w-full max-w-sm mx-auto shadow-md p-6 relative">
+                      <span className="step absolute bg-gradient-to-r from-blue-500 to-purple-500  w-8 h-8  rounded-full text-center text-white top-4 right-4">02</span>
                       <figure>
                         <img
                           src={baje}
@@ -43,8 +43,8 @@ function Steps () {
                         
                       </div>
                     </div>
-                    <div className="card bg-base-100 w-96 shadow-sm p-8">
-                      <span className="step bg-gradient-to-r from-blue-500 to-purple-500  w-8 h-8  rounded-full text-center text-white ml-70">03</span>
+                    <div className="card bg-base-100 w-full max-w-sm mx-auto shadow-md p-6 relative">
+                      <span className=" absolute top-4 right-4 step bg-gradient-to-r from-blue-500 to-purple-500  w-8 h-8  rounded-full text-center text-white ">03</span>
                        <figure>
                         <img
                           src={rocket}
