@@ -10,10 +10,14 @@ function Steps () {
                     <div className="text-center space-y-4">
                          <h1 className="font-bold text-5xl ">Get Started in 3 Steps</h1>
                     <p className="text-gray-500">Start using premium digital tools in minutes, not hours.</p>
+                    
                     </div>
                   </div>
                     <div className="flex justify-between mt-8">
                         <div className="card bg-base-100 w-96 shadow-sm p-8">
+                          
+                            <span className="step bg-gradient-to-r from-blue-500 to-purple-500  w-8 h-8  rounded-full text-center text-white ml-70">01</span>
+                         
                       <figure>
                         <img
                           src={user}
@@ -27,6 +31,7 @@ function Steps () {
                       </div>
                     </div>
                     <div className="card bg-base-100 w-96 shadow-sm p-8">
+                      <span className="step bg-gradient-to-r from-blue-500 to-purple-500  w-8 h-8  rounded-full text-center text-white ml-70">02</span>
                       <figure>
                         <img
                           src={baje}
@@ -39,6 +44,7 @@ function Steps () {
                       </div>
                     </div>
                     <div className="card bg-base-100 w-96 shadow-sm p-8">
+                      <span className="step bg-gradient-to-r from-blue-500 to-purple-500  w-8 h-8  rounded-full text-center text-white ml-70">03</span>
                        <figure>
                         <img
                           src={rocket}
