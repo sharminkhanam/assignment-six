@@ -48,10 +48,23 @@ function Carts ({product, carts, setCarts}) {
                                         </div>
                                     
                                     </div>
-                                    <button onClick={handleBuy} className="btn bg-gradient-to-r from-blue-500 to-purple-500  btn-block text-white p-5 
-                                    rounded-full mb-4
-                                    text-xl text-center font-bold">
-                                        {isBuy? "Buy" : "Buy Now"}</button>  
+                                    <button onClick={handleBuy} className={`btn text-xl text-center font-bold btn-block text-white p-5 rounded-full mb-4
+
+                                    ${isBuy ? "bg-green-500" : "bg-gradient-to-r from-blue-500 to-purple-500 "} 
+                                    
+                                    `}>
+                                        {isBuy? (
+                                            <>
+                                            <FaCheck/>
+                                            Add to cart
+                                            
+
+                                            </> )
+                                            : (
+
+                                                "Buy Now")}
+                                        
+                                            </button>  
                                 </div>
                                           
                                 

@@ -14,36 +14,29 @@ export default function Pricingsection () {
    
     
     <div className="space-y-3">
-      <h2 className="text-3xl font-bold">Pro</h2>
-      <p>Best for professionals</p>
+      <h2 className="text-3xl font-bold">Starter</h2>
+      <p>Perfect for getting started</p>
       
     </div>
-    <span className="text-xl mt-4">$29/mo</span>
+    <span className="text-5xl mt-4">$0/mo</span>
     <ul className="mt-6 flex flex-col gap-2 text-xs">
       <li className="flex gap-2 items-center">
          <FaCheck className="text-green-500 w-5 h-5 "/>
-        <span>High-resolution image generation</span>
+        <span>Access to 10 free tools</span>
       </li>
       <li className="flex gap-2 items-center"> 
         <FaCheck className="text-green-500 w-5 h-5 "/>
-        <span>Customizable style templates</span>
+        <span>Basic templates</span>
       </li>
       <li className="flex gap-2 items-center">
            <FaCheck className="text-green-500 w-4 h-4"/>
-        <span>Batch processing capabilities</span>
+        <span>Community support</span>
       </li>
       <li className="flex gap-2 items-center">
          <FaCheck className="text-green-500 w-5 h-5 "/>
-        <span>AI-driven image enhancements</span>
+        <span>1 project per month</span>
       </li>
-      <li className="flex gap-2 items-center">
-           <FaCheck className="text-green-500 w-5 h-5 "/>
-        <span >Seamless cloud integration</span>
-      </li>
-      <li className="flex gap-2 items-center">
-        <FaCheck className="text-green-500 w-5 h-5 "/>
-        <span>Real-time collaboration tools</span>
-      </li>
+    
     </ul>
     <div className="mt-6">
       <button className="btn bg-gradient-to-r from-blue-500 to-purple-500  btn-block text-white p-7 rounded-full text-xl text-center font-bold">Get Started Free</button>
@@ -66,27 +59,27 @@ export default function Pricingsection () {
     <ul className="mt-6 flex flex-col gap-2 text-xs">
       <li className="flex gap-2 items-center">
          <FaCheck className="text-white w-5 h-5 "/>
-        <span className="text-white">High-resolution image generation</span>
+        <span className="text-white">Access to all premium tools</span>
       </li>
       <li className="flex gap-2 items-center"> 
         <FaCheck className="text-white w-5 h-5 "/>
-        <span className="text-white">Customizable style templates</span>
+        <span className="text-white">Unlimited templates</span>
       </li>
       <li className="flex gap-2 items-center">
            <FaCheck className="text-white w-5 h-5"/>
-        <span className="text-white">Batch processing capabilities</span>
+        <span className="text-white">Priority support</span>
       </li>
       <li className="flex gap-2 items-center">
          <FaCheck className="text-white w-5 h-5 "/>
-        <span className="text-white">AI-driven image enhancements</span>
+        <span className="text-white">Unlimited projects</span>
       </li>
       <li className="flex gap-2 items-center">
            <FaCheck className="text-white w-5 h-5 "/>
-        <span className="text-white">Seamless cloud integration</span>
+        <span className="text-white">Cloud sync</span>
       </li>
       <li className="flex gap-2 items-center">
         <FaCheck className="text-white w-5 h-5 "/>
-        <span className="text-white">Real-time collaboration tools</span>
+        <span className="text-white">Advanced analytics</span>
       </li>
     </ul>
     <div className="mt-6 bg-white p-2 rounded-full">
@@ -101,35 +94,35 @@ export default function Pricingsection () {
    
     
     <div className="space-y-3">
-      <h2 className="text-3xl font-bold">Pro</h2>
-      <p>Best for professionals</p>
+      <h2 className="text-3xl font-bold">Enterprise</h2>
+      <p>For teams and businesses</p>
       
     </div>
-    <span className="text-5xl mt-4">$29/mo</span>
+    <span className="text-5xl mt-4">$99/mo</span>
     <ul className="mt-6 flex flex-col gap-2 text-xs">
       <li className="flex gap-2 items-center">
          <FaCheck className="text-green-500 w-5 h-5 "/>
-        <span>High-resolution image generation</span>
+        <span>Everything in Pro</span>
       </li>
       <li className="flex gap-2 items-center"> 
         <FaCheck className="text-green-500 w-5 h-5 "/>
-        <span>Customizable style templates</span>
+        <span>Team collaboration</span>
       </li>
       <li className="flex gap-2 items-center">
            <FaCheck className="text-green-500 w-4 h-4"/>
-        <span>Batch processing capabilities</span>
+        <span>Custom integrations</span>
       </li>
       <li className="flex gap-2 items-center">
          <FaCheck className="text-green-500 w-5 h-5 "/>
-        <span>AI-driven image enhancements</span>
+        <span>Dedicated support</span>
       </li>
       <li className="flex gap-2 items-center">
            <FaCheck className="text-green-500 w-5 h-5 "/>
-        <span >Seamless cloud integration</span>
+        <span >SLA guarantee</span>
       </li>
       <li className="flex gap-2 items-center">
         <FaCheck className="text-green-500 w-5 h-5 "/>
-        <span>Real-time collaboration tools</span>
+        <span>Custom branding</span>
       </li>
     </ul>
     <div className="mt-6">
